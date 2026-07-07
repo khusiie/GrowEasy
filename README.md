@@ -57,3 +57,14 @@ This project is stateless. The backend acts as a processing layer that parses th
 - **Preview UI**: Allows the user to verify data before processing.
 - **Glassmorphism UI**: Beautiful, dynamic interface.
 - **Multiple Emails/Phones**: Consolidates extras into the CRM notes field.
+
+##  Screenshot 
+
+<img width="680" height="336" alt="{57A1ED46-050A-441E-AA68-84537095C8BF}" src="https://github.com/user-attachments/assets/519f8a0c-6eb4-4363-9bb4-fb1900d18630" />
+
+<img width="1920" height="950" alt="Screenshot from 2026-07-07 21-24-44" src="https://github.com/user-attachments/assets/2c93b1f7-a924-40da-9961-6418d115fb3f" />
+
+<img width="1920" height="950" alt="Screenshot from 2026-07-07 21-24-35" src="https://github.com/user-attachments/assets/03e74354-59a6-41ae-af23-5061715c65b3" />
+
+
+
