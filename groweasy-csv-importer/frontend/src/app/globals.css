@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #142524;
+  --color-bg-alt: #1e3a37;
+  --color-glass-bg: rgba(255, 255, 255, 0.05);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --color-accent: #294744;
+  --color-accent-hover: #1a2f2d;
+  --color-success: #22c55e;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #cbd5e1;
+  --font-bricolage-grotesque: var(--font-bricolage-grotesque), sans-serif;
+}
+
+body {
+  @apply bg-bg-base text-text-primary min-h-screen font-bricolage-grotesque;
+  background-image: linear-gradient(135deg, #142524 0%, #1e3a37 100%);
+}
+
+.glass-panel {
+  @apply bg-glass-bg border border-glass-border backdrop-blur-lg rounded-xl shadow-xl;
+}
+
+.button-primary {
+  @apply flex items-center justify-center gap-2 px-6 py-3 bg-accent text-white font-medium rounded-lg transition-colors hover:bg-accent-hover active:scale-95 cursor-pointer border-none;
+}
+
+.button-secondary {
+  @apply flex items-center justify-center gap-2 px-6 py-3 bg-transparent border border-glass-border text-text-primary font-medium rounded-lg transition-colors hover:bg-white/5 active:scale-95 cursor-pointer;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out forwards;
+}
+
+@keyframes zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-zoom-in {
+  animation: zoom-in 0.5s ease-out forwards;
+}

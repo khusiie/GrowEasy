@@ -1,0 +1,7 @@
+"Creation Date","Full Name","Email Addresses","Phone Numbers","Organization","Location City","Outcome","Agent Name","Lead Source"
+"2023-10-01","Alice Smith","alice@example.com","9876543210","Tech Corp","New York","GOOD_LEAD_FOLLOW_UP","John Doe","meridian_tower"
+"2023-10-02","Bob Jones","bob@example.com, bob.work@test.com","555-1234","Sales Inc","Chicago","SALE_DONE","Jane Doe","eden_park"
+"2023-10-03","Charlie Brown","","+1-555-9876, 555-0000","Marketing LLC","Boston","DID_NOT_CONNECT","John Doe",""
+"2023-10-04","Diana Prince","diana@amazon.com","","","","BAD_LEAD","",""
+"2023-10-05","Ghost User","","","Nowhere Corp","Lost City","","",""
+"2023-10-06","Eve Hacker","eve@hack.net","111-222-3333","Cyber Sec","San Francisco","GOOD_LEAD_FOLLOW_UP","Jane Doe","varah_swamy"

@@ -1,0 +1,7 @@
+Date Created,Full Name,Primary Contact Email,Secondary Email,Phone 1,Phone 2,Organization,City Name,Region/State,Nation,Assigned To,Lead Quality/Status,Extra Remarks,Source of Lead,Expected Possession,Notes
+05/13/2026 14:20,John Doe,john.doe@example.com,,+919876543210,,GrowEasy,Mumbai,Maharashtra,India,test@gmail.com,GOOD_LEAD_FOLLOW_UP,Client is asking to reschedule demo,leads_on_demand,Next Month,
+05/13/2026 14:25,Sarah Johnson,sarah.johnson@example.com,sarah.personal@test.com,+15551234567,+15559876543,Tech Solutions,Bangalore,Karnataka,India,test@gmail.com,DID_NOT_CONNECT,Person was busy will try again next week,meridian_tower,,
+05/13/2026 14:30,Rajesh Patel,rajesh.patel@example.com,,9876543212,,Startup Inc,Delhi,Delhi,India,test@gmail.com,BAD_LEAD,Not interested in our services,unknown_source,Immediate,
+05/13/2026 14:35,Priya Singh,priya.singh@example.com,,+919876543213,,Enterprise Corp,Pune,Maharashtra,India,test@gmail.com,SALE_DONE,Deal closed onboarding in progress,eden_park,6 Months,
+05/14/2026 09:00,Invalid Lead,,,,,,,No Name City,,,,,,Should be skipped because no email and no phone,
+05/14/2026 10:15,Amit Kumar,amit.kumar@test.com,,+91 9998887776,,Freelance,Chennai,Tamil Nadu,India,admin@groweasy.ai,Hot Lead,Interested in premium package,sarjapur_plots,,Needs a call back soon
